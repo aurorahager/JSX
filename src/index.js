@@ -1,3 +1,7 @@
+/* REACT 1:
+mini static React app to get the basics of JSX down.
+*/
+
 // import the React and ReactDOM libraries
 import React from 'react';
 import ReactDOM from 'react-dom';
@@ -17,7 +21,7 @@ const App = () => {
         {buttonText}{' '}
       </button>
     </div>
-  );
+  );//END return
 }; //END App component
 
 // show  content on DOM
